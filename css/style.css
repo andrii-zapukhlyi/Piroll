@@ -965,7 +965,12 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .numbers__item{
     margin-top: 30px;
+  }
+  .numbers__item:firstchild{
+    margin-top: 0;
   }
 }
 
